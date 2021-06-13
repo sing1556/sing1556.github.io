@@ -1,0 +1,48 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+}
+
+.large-text{
+    font-size: 18px;
+}
+
+footer,
+header{
+    background-color: black;
+}
+
+.site-title{
+    color: red;
+}
+
+article ul li{
+    list-style: square;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li a{
+    text-decoration: none;
+}
+
+nav ul a,
+nav ul a:link,
+nav ul a:visited{
+    color: black;
+    background-color: white;
+    /* Horizontal vertical blur spread color */
+    box-shadow: -2px 2px 4px 2px black;
+}
+
+nav ul .current,
+nav ul a:hover,
+nav ul a:focus {
+    background-color: red;
+}
+
+article ul li:nth-child(odd) {
+    background-color: rgb(230, 207, 171);
+}
