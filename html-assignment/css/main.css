@@ -46,3 +46,7 @@ nav ul a:focus {
 article ul li:nth-child(odd) {
     background-color: rgb(230, 207, 171);
 }
+
+#my-image{
+    box-shadow: 0px 0px 2px 1px black;
+}
