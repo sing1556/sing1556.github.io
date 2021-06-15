@@ -33,11 +33,12 @@ nav ul a:link,
 nav ul a:visited{
     color: black;
     background-color: white;
+    border: 1px solid red;
     /* Horizontal vertical blur spread color */
     box-shadow: -2px 2px 4px 2px black;
 }
 
-nav ul .current,
+nav ul a,
 nav ul a:hover,
 nav ul a:focus {
     background-color: red;
