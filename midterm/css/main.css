@@ -1,0 +1,10 @@
+header {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-image: url(../images/lone-starfish-wide.jpg)
+}
+
+nav ul{
+    list-style: none;
+}
