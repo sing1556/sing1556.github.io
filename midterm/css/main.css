@@ -1,10 +1,182 @@
-header {
-    padding: 20px;
-    text-align: center;
-    color: white;
-    background-image: url(../images/lone-starfish-wide.jpg)
+html, body, div, h1, h2, h3, h4, p, blockquote, ul, li,
+article, footer, header, nav, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 
-nav ul{
-    list-style: none;
+article, footer, header, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background: #AAD3CF;
+	padding-bottom: 16px;
+}
+html{
+	font-size: 15px; 
+}
+
+
+li{
+	list-style:disc;
+	list-style-position: inside;
+}
+
+div.contact {
+	/* border settings of contact section */
+	border:1px solid black;
+	padding:20px;
+}
+
+div.contact .blocklabel {
+	display:block;
+	font-size:1.1rem;
+	margin-bottom:0.25rem;
+}
+
+input.fullwidth {
+	/* makes input under name and email to be 100% width */
+	margin-bottom:0.75rem;
+	padding-bottom:0.5rem;
+	width: 100%;
+}
+
+textarea#message {
+	/* making message input size bigger and no adjustable by user */
+	padding-bottom:3rem;
+	resize: none;
+	width:100%;
+}
+
+button {
+	/* settings for button in contact section */
+	background:none;
+	border:1px solid black;
+	font-size:0.7rem;
+	margin-top:0.7rem;
+	padding:0.7rem;
+}
+
+div.container {
+	background: #D3E9E7;
+	max-width: 1200px;
+    margin: 0 auto;
+}
+
+div.container main {
+	/* gives padding to first section of content */
+	padding:0.75rem;
+}
+
+
+img.floatimage {
+	/* float the img to the left of the container */
+float:left;
+width:20%;
+margin-right: 16px;
+
+}
+
+p {
+	/* set paragraph font size and line height */
+	font-size:1.2rem;
+	line-height:1.5;
+}
+
+h1 {
+	color: white;
+	text-align:center;
+	font-size: 4rem;
+	position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h2{
+	color: black;
+	text-align: left;
+	font-size: 32px;
+	font-weight:bold;
+	padding:1rem 0;
+}
+h3{
+	color:black;
+	text-align: left;
+	font-size: 24px;
+	font-weight:bold;
+	margin:1.25rem 0 0.9rem 0;
+
+}
+
+h4 {
+	/* gives heading to question in contact section */
+	font-size: 1.3rem;
+	margin: 1rem 0 1.2rem 0;
+}
+
+
+.visit label {
+	/* sets font size for radiobutton */
+	font-size:1.2rem;
+}
+
+footer {
+	/* adjust footer size */
+	padding: 1rem 2rem 2rem 0;
+	text-align: right;
+
+}
+
+.header-container {
+	position: relative;
+}
+
+.header-container img {
+	width:100%;
+}
+
+
+nav ul li {
+	/* Center the text and create padding and size */
+	border-right: 1px solid black;
+	display: inline-block;
+	padding: 0.5rem 0;
+	text-align:center;
+	width:33%;
+}
+
+nav ul li:last-child {
+	/* makes it so the last option in the nav does follow the same border properties and the first two children. */
+	border: none;
+}
+
+
+nav ul li a {
+	/* makes the anchor tag or the text in the nav black font color. Adjust the font size, removes text decoration and makes all letters of each word uppercase */
+	color:black;
+	font-size:1.5rem; 
+	text-decoration: none;
+	text-transform: uppercase;
 }
