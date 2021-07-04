@@ -81,7 +81,7 @@ button {
 
 div.container {
 	background: #D3E9E7;
-	max-width: 1200px;
+	max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -164,7 +164,7 @@ nav ul li {
 	display: inline-block;
 	padding: 0.5rem 0;
 	text-align:center;
-	width:33%;
+	width:32%;
 }
 
 nav ul li:last-child {
@@ -178,5 +178,4 @@ nav ul li a {
 	color:black;
 	font-size:1.5rem; 
 	text-decoration: none;
-	text-transform: uppercase;
 }
