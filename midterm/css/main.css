@@ -203,7 +203,6 @@ nav ul li:last-child {
 
 
 nav ul li a {
-    /* makes the anchor tag or the text in the nav black font color. Adjust the font size, removes text decoration and makes all letters of each word uppercase */
     color: black;
     font-size: 1.5rem;
     text-decoration: none;
