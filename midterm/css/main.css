@@ -78,7 +78,7 @@ input.fullwidth {
 }
 
 textarea#message {
-    /* making message input size bigger and no adjustable by user */
+    /* making message input size bigger and no adjustable  */
     padding-bottom: 3rem;
     resize: none;
     width: 100%;
