@@ -59,7 +59,7 @@ li {
 }
 
 div.contact {
-    /* border settings of contact section */
+    /* border of contact section */
     border: 1px solid black;
     padding: 20px;
 }
@@ -85,7 +85,7 @@ textarea#message {
 }
 
 button {
-    /* settings for button in contact section */
+    /* adding border, font-size, etc., to button in contact section */
     background: none;
     border: 1px solid black;
     font-size: 0.7rem;
@@ -106,7 +106,7 @@ div.container main {
 
 
 img.floatimage {
-    /* float the img to the left of the container */
+    /* float the image to the left */
     float: left;
     width: 20%;
     margin-right: 16px;
@@ -114,7 +114,7 @@ img.floatimage {
 }
 
 p {
-    /* set paragraph font size and line height */
+    /* paragraph font size and line height */
     font-size: 1.2rem;
     line-height: 1.5;
 }
@@ -147,19 +147,19 @@ h3 {
 }
 
 h4 {
-    /* gives heading to question in contact section */
+    /* heading bold in contact section */
     font-size: 1.3rem;
     margin: 1rem 0 1.2rem 0;
 }
 
 
 .visit label {
-    /* sets font size for radiobutton */
+    /* font size for radiobutton */
     font-size: 1.2rem;
 }
 
 footer {
-    /* adjust footer size */
+    /* footer size */
     padding: 1rem 2rem 2rem 0;
     text-align: right;
 
