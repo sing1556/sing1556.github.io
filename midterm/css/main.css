@@ -70,7 +70,7 @@ div.contact .blocklabel {
     margin-bottom: 0.25rem;
 }
 
-input.fullwidth {
+input.maxwidth {
     /* makes input under name and email to be 100% width */
     margin-bottom: 0.75rem;
     padding-bottom: 0.5rem;
