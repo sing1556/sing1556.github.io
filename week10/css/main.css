@@ -3,88 +3,175 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* ------------------------------------------ CSS STYLES ---------------------------------------------- */
 
-html{
+html {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     box-sizing: border-box;
 }
 
-body{
+body {
     line-height: 1.5;
 }
 
 *,
 *:after,
-*:before{
+*:before {
     box-sizing: inherit;
     line-height: inherit;
 }
 
-.clearfix::after{
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
 
-img{
+img {
     width: 100%;
 }
 
 /* LoVe HAte */
 a,
 a:link,
-a:visited{
+a:visited {
     color: inherit;
 }
 
 a:hover,
-a:focus{
+a:focus {
     color: #00ADD8;
 }
 
@@ -92,33 +179,33 @@ h1,
 h2,
 h3,
 h4,
-h5{
+h5 {
     font-weight: bold;
     /* top left-right bottom */
     margin: 1em 0 0.5em;
 }
 
-h1{
+h1 {
     font-size: 5.063rem;
 }
 
-h2{
+h2 {
     font-size: 3.375rem;
 }
 
-h3{
+h3 {
     font-size: 2.25rem;
 }
 
-h4{
+h4 {
     font-size: 1.5rem;
 }
 
-h5{
+h5 {
     font-size: 1rem;
 }
 
-p{
+p {
     /* top-bottom left-right */
     margin: 1rem 0;
 }
@@ -153,7 +240,7 @@ p{
 
 /* Navigation */
 
-.nav-list li{
+.nav-list li {
     border-bottom: 1px solid black;
     text-align: center;
 }
@@ -185,7 +272,7 @@ p{
 }
 
 .btn:hover,
-.btn:focus{
+.btn:focus {
     background-color: #00ADD8;
     color: inherit;
 }
@@ -218,7 +305,7 @@ p{
 /* ------------------------Desktop Styles------------------------ */
 
 @media screen and (min-width: 600px) {
-    html{
+    html {
         font-size: 16px;
     }
 
@@ -235,7 +322,7 @@ p{
         background-image: url("../images/desktop-banner.jpg");
     }
 
-    .banner h1{
+    .banner h1 {
         color: white;
     }
 
@@ -275,4 +362,3 @@ p{
         max-width: 20%;
     }
 }
-
