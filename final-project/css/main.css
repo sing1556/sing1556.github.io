@@ -120,7 +120,6 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-    content: '';
     content: none;
 }
 
@@ -373,6 +372,20 @@ section div button {
 section#team div h3 {
     margin-bottom: 0;
 }
+
+
+/* ---------------------------------------footer section-------------------------------------- */
+
+footer {
+    background-color: #222;
+    color: #c78b06;
+    padding: 20px 0 10px 20px;
+}
+
+footer span {
+    text-decoration: underline;
+}
+
 /* ------------------------------------style send button------------------------------ */
 button#send {
     color: #c78b06;
@@ -424,18 +437,6 @@ td {
 iframe {
     width: 337.5px;
     height: auto;
-}
-
-/* ---------------------------------------footer section-------------------------------------- */
-
-footer {
-    background-color: #222;
-    color: #c78b06;
-    padding: 20px 0 10px 20px;
-}
-
-footer span {
-    text-decoration: underline;
 }
 
 /* ----------------------connectwithus button---------------------------- */
