@@ -661,7 +661,7 @@ section div p,
         width: 98%;
     }
 
-/* -----------------topservices section------------------- */
+/* -----------------services section------------------- */
 
     .full {
         order: 0;
@@ -671,7 +671,7 @@ section div p,
 
     .lefthalf {
         order: 0;
-        flex: 0 1 49%;
+        flex: 0 1 50%;
         align-self: auto;
     }
 
