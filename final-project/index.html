@@ -10,233 +10,274 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 
-<!-- Website body -->
-
+<!------------------------------------- Body section ------------------------------------------------>
 <body>
     <div class="container">
-        <header class="head">
-            <img src="images/logo.png" alt="website-logo">
+        <header>
+
+           
+
             <nav class="main-nav">
 
                 <ul class="nav-list">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#twam">Team</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><img src="./images/logo.png" alt="3 stars" /></li>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about" class="">About Us</a></li>
+                    <li><a href="#servicelink" class="">Services</a></li>
+                    <li><a href="#team" class="">Team</a></li>
+                    <li><a href="#Contact" class="">Contact</a></li>
+
+                    <li>
+                        <form class="search-container">
+
+                            <div class="search">
+                                <label for="anysearch"></label>
+
+                                <input type="text" name="anysearch" id="anysearch" placeholder="Search" value="Search">
+                            </div>
+
+                            <div class="magnify">
+
+                                <button><i class="im im-magnifier"></i></button>
+                            </div>
+                        </form>
+                    </li>
                 </ul>
 
-                <div class="second-container">
-                    <div class="search">
-                        <input type="text" placeholder="Search">
-                    </div>
-                    <div class="magnify">
-                        <button><i class="im im-magnifier"></i></button>
-                    </div>
 
-                </div>
 
             </nav>
         </header>
+        <main>
 
-        <main class="content">
-            <section class="welcome">
-                <img src="images/main-banner.jpg" alt="main bainer">
-                <div class="banner">
-                    <h1>Welcome To Three Star Media</h1>
+            <!------------------------------ Welcome Section ----------------------------------------->
+
+            <section class="banner">
+
+                <div class="welcome">
+                    <h1> Welcome to Three Star Media </h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio illum, error nobis magnam eos
+                        debitis corporis ullam accusamus dignissimos iure architecto ea libero deserunt consequatur
+                        incidunt ut? Aut, dolores tempore!
+                    </p>
+
+                    <a href="#" class="blackbutton"><span>Connect with us&nbsp;&nbsp;&nbsp;</span><i
+                            class="im im-play"></i></a>
                 </div>
-
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio illum, error nobis magnam eos debitis
-                    corporis ullam accusamus dignissimos iure architecto ea libero deserunt consequatur incidunt ut?
-                    Aut, dolores tempore!
-                </p>
-
-                <button type="button" class="buttons">Connect with us<i class="im im-care-right"></i></button>
-
             </section>
-            <!-- About section -->
 
-            <section class="about">
-                <div class="">
-                    <img src="images/about-us.jpg" alt="tennis table">
-                    <div class="">
+            <!--------------------------- about us section --------------------------->
+
+            <section>
+
+                <div class="flex-container-about">
+                    <div class="lefthalf">
+                        <img src="./images/about-us.jpg" alt="tennis table">
+                    </div>
+
+                    <div class="almosthalf">
                         <h2>About Us</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio illum, error nobis magnam eos
                             debitis corporis ullam accusamus dignissimos iure architecto ea libero deserunt consequatur
                             incidunt ut? Aut, dolores tempore!</p>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio illum, error nobis magnam eos
+                            debitis corporis ullam accusamus dignissimos iure architecto ea libero deserunt consequatur
+                            incidunt ut? Aut, dolores tempore!</P>
+                    </div>
+                </div>
+            </section>
 
+            <!------------------------ Services Section ------------------------>
+
+            <section class="flex-container">
+                
+                <section class="full">
+                    <h2>Our Services</h2>
+                </section>
+
+                <section class="lefthalf">
+                    <img src="./images/digital.jpg" alt="laptop and phone">
+                    <div>
+                        <h3>Digital Transformation</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio illum, error nobis magnam eos
                             debitis corporis ullam accusamus dignissimos iure architecto ea libero deserunt consequatur
                             incidunt ut? Aut, dolores tempore!</p>
+
+                        <a href="#" class="blackbutton"><span>Digital Plans&nbsp;&nbsp;&nbsp;</span><i
+                                class="im im-play"></i></a>
+
                     </div>
+                </section>
 
-                </div>
-            </section>
-
-            <!-- Service section -->
-
-            <section class="">
-                <h2>Our Services</h2>
-            </section>
-            <!-- class given to split section in half-half -->
-            <section class="half-half">
-                <div>
-                    <img src="./images/digital.jpg" alt="phone and laptop">
-                    <h3>Digital Transformation</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio illum, error nobis magnam eos
-                        debitis corporis ullam accusamus dignissimos iure architecto ea libero deserunt consequatur
-                        incidunt ut? Aut, dolores tempore!</p>
-                    <button>Digital Plans&nbsp;&nbsp;&nbsp;<i class="im im-play"></i></button>
-                </div>
-            </section>
-
-            <section class="half-half">
-                <div>
+                <section class="lefthalf">
                     <img src="./images/marketing.jpg" alt="only laptop">
-                    <h3>Marketing</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio illum, error nobis magnam eos
-                        debitis corporis ullam accusamus dignissimos iure architecto ea libero deserunt consequatur
-                        incidunt ut? Aut, dolores tempore!</p>
-                    <button>Marketing Plans&nbsp;&nbsp;&nbsp;<i class="im im-play"></i></button>
-                </div>
+                    <div>
+                        <h3>Marketing</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio illum, error nobis magnam eos
+                            debitis corporis ullam accusamus dignissimos iure architecto ea libero deserunt consequatur
+                            incidunt ut? Aut, dolores tempore!</p>
+                        <a href="#" class="blackbutton"><span>Marketing Plans&nbsp;&nbsp;&nbsp;</span><i
+                                class="im im-play"></i></a>
+
+                    </div>
+                </section>
             </section>
 
-            <!-- class for edit layout -->
+            <section class="flex-container">
 
-            <section class="trio">
-                <div>
-                    <img src="./images/video.jpg" alt="youtube in phone">
-                    <h3>Video Production</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio illum, error nobis magnam eos
-                        debitis corporis ullam accusamus dignissimos iure architecto ea libero deserunt consequatur
-                        incidunt ut? Aut, dolores tempore!</p>
-                    <button>Video Plans&nbsp;&nbsp;&nbsp;<i class="im im-play"></i></button>
-                </div>
-            </section>
-            <section class="trio">
-                <div>
-                    <img src="./images/web.jpg" alt="Phone and pen">
-                    <h3>Web Development</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio illum, error nobis magnam eos
-                        debitis corporis ullam accusamus dignissimos iure architecto ea libero deserunt consequatur
-                        incidunt ut? Aut, dolores tempore!</p>
-                    <button>Web Plans&nbsp;&nbsp;&nbsp;<i class="im im-play"></i></button>
-                </div>
-            </section>
-            <section class="trio">
-                <div>
-                    <img src="./images/print.jpg" alt="newspapers">
-                    <h3>Print</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio illum, error nobis magnam eos
-                        debitis corporis ullam accusamus dignissimos iure architecto ea libero deserunt consequatur
-                        incidunt ut? Aut, dolores tempore!</p>
-                    <button>Print Plans&nbsp;&nbsp;&nbsp;<i class="im im-play"></i></button>
-                </div>
+                <section class="three">
+                    <img src="./images/video.jpg" alt="youtube">
+                    <div>
+                        <h3>Video Production</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio illum, error nobis magnam eos
+                            debitis corporis ullam accusamus dignissimos iure architecto ea libero deserunt consequatur
+                            incidunt ut? Aut, dolores tempore!</p>
+                        <a href="#" class="blackbutton"><span>Video Plans&nbsp;&nbsp;&nbsp;</span><i
+                                class="im im-play"></i></a>
+
+                    </div>
+                </section>
+                <section class="three">
+                    <img src="./images/web.jpg" alt="phone and notepad">
+                    <div>
+                        <h3>Web Development</h3>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ducimus pariatur
+                            perferendis
+                            magnam labore, recusandae quasi eaque aliquam explicabo. Pariatur ut cum enim nobis,
+                            explicabo
+                            illum animi iste cumque atque.</p>
+
+                        <a href="#" class="blackbutton"><span>Web Plans&nbsp;&nbsp;&nbsp;</span><i
+                                class="im im-play"></i></a>
+
+                    </div>
+                </section>
+                <section class="three">
+                    <img src="./images/print.jpg" alt="print newspapers">
+                    <div>
+                        <h3>Print</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio illum, error nobis magnam eos
+                            debitis corporis ullam accusamus dignissimos iure architecto ea libero deserunt consequatur
+                            incidunt ut? Aut, dolores tempore!</p>
+                        <a href="#" class="blackbutton"><span>Print Plans&nbsp;&nbsp;&nbsp;</span><i
+                                class="im im-play"></i></a>
+
+                    </div>
+                </section>
             </section>
 
-            <!-- Vision Section -->
+            <!---------------------------------------- Vision Section -------------------------------------->
+
             <section class="vision">
                 <div>
                     <h3>Our Vision</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio illum, error nobis magnam eos
                         debitis corporis ullam accusamus dignissimos iure architecto ea libero deserunt consequatur
                         incidunt ut? Aut, dolores tempore!</p>
-                    <button>Learn More&nbsp;&nbsp;&nbsp;<i class="im im-play"></i></button>
+                    <a href="#" class="blackbutton"><span>Learn More&nbsp;&nbsp;&nbsp;</span><i
+                            class="im im-play"></i></a>
                 </div>
             </section>
-            <!-- Team Section -->
 
-            <section class="">
-                <h2>Our Team</h2>
+            <!----------------------------------- Team Section ---------------------------------->
+
+            <section id="team">
+
+                <section class="ourteam">
+                    <h2>Our Team</h2>
+                </section>
+
+
+                <img class="johnphoto" src=".//images/john.jpg" alt="john pic ">
+                <div class="johninfo">
+                    <h3>John Doe</h3>
+                    <h4>CEO and Co-owner</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio illum, error nobis magnam eos
+                        debitis corporis ullam accusamus dignissimos iure architecto ea libero deserunt consequatur
+                        incidunt ut? Aut, dolores tempore!</p>
+                </div>
+
+
+                <img class="bobphoto" src="./images/bob.jpg" alt="Bob pic">
+                <div class="bobinfo">
+                    <h3>Bob Rite</h3>
+                    <h4>CFO and Co-owner</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ducimus pariatur
+                        perferendis
+                        magnam labore, recusandae quasi eaque aliquam explicabo. Pariatur ut cum enim nobis,
+                        explicabo
+                        illum animi iste cumque atque.</p>
+                </div>
+
+
             </section>
 
-            <section class="">
-                <div>
-                    <img src="./images/john.jpg" alt="John Doe Photo">
-                    <div>
-                        <h3>John Doe</h3>
-                        <h4>CEO and Co-owner</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio illum, error nobis magnam eos
-                            debitis corporis ullam accusamus dignissimos iure architecto ea libero deserunt consequatur
-                            incidunt ut? Aut, dolores tempore!</p>
+            <!------------------------------------ ContactUs Section -------------------------------------->
+
+            <section class="flex-container">
+
+                <section class="full contact-order">
+                    <h2>Contact Us</h2>
+                </section>
+                <section class="fifty-fifty contact-order">
+                    <h3>Send Us a Message</h3>
+
+                    <div id="Contact">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" name="fullname" id="fullname">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message"></textarea>
+                        <button id="send">Send</button>
                     </div>
+                </section>
 
-                </div>
-            </section>
+                <section class="full contact-order">
+                    <h3>Hours of Operation</h3>
+                    <div id="operation">
 
-            <section class="">
-                <div>
-                    <img src="./images/bob.jpg" alt="Bob Rite Photo">
-                    <div>
-                        <h3>Bob Rite</h3>
-                        <h4>CFO and Co-owner</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio illum, error nobis magnam eos
-                            debitis corporis ullam accusamus dignissimos iure architecto ea libero deserunt consequatur
-                            incidunt ut? Aut, dolores tempore!</p>
-                    </div>
+                        <!------------------------------ Table Properties ------------------------------->
 
-                </div>
-            </section>
-
-
-
-            <!-- Contact Us Section -->
-
-            <section class="contact-order">
-                <h2>Contact Us</h2>
-            </section>
-            <section class="left contact-order">
-                <h3>Send Us a Message</h3>
-                <div id="Contact-us">
-                    <label for="fullname">Full Name</label>
-                    <input type="text" name="fullname" id="fullname">
-                    <label for="email">Email</label>
-                    <input type="text" name="email" id="email">
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message"></textarea>
-                    <button id="send">Send</button>
-                </div>
-            </section>
-            <!-- Hours section -->
-            <section class="contact-order">
-                <h3>Hours of Operation</h3>
-                <div>
-
-                    <table>
-                        <thead>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>Days</td>
+                                    <td>Hours</td>
+                                </tr>
+                            </thead>
                             <tr>
-                                <td>Days</td>
-                                <td>Hours</td>
+                                <td>Monday - Friday</td>
+                                <td>9 AM - 6 PM</td>
                             </tr>
-                        </thead>
-                        <tr>
-                            <td>Monday - Friday</td>
-                            <td>9 AM - 6 PM</td>
-                        </tr>
-                        <tr>
-                            <td>Saturday - Sunday</td>
-                            <td>Closed</td>
-                        </tr>
-                    </table>
-                </div>
-            </section>
-            <!-- Location Section -->
-            <section>
-                <h3>Location</h3>
-                <div>
-                    <!-- Adding the google map -->
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11215.778950128877!2d-75.7549368!3d45.3499278!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1627396211753!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-            </section>
+                            <tr>
+                                <td>Saturday - Sunday</td>
+                                <td>Closed</td>
+                            </tr>
+                        </table>
+                    </div>
+                </section>
 
+                <!------------------------------------------- GOOGLE MAP ------------------------------------->
+
+                <section class="fifty-fifty contact-order">
+                    <h3>Location</h3>
+                    <div id="location">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d833.6204142990543!2d-75.75874681739768!3d45.34974744403608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1627841896226!5m2!1sen!2sca"
+                            style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </section>
+            </section>
         </main>
-        <!-- Footer -->
+
+        <!----------------------------------- footer section ------------------------------------->
+
         <footer>
             <p>&copy; Copyright Three Star Media, 2021</P>
-            <p> All images are taken from <a
-                    href="https://unsplash.com/s/photos/climate-change?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>
-            </p>
+            <p> All images are taken from <span>Unsplash</span></p>
         </footer>
     </div>
 </body>

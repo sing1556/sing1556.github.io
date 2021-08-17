@@ -1,0 +1,782 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* --------------------------CSS STYLE-------------------------------- */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+/* ---------------------------Open Sans Font-------------------------- */
+body {
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p {
+    line-height: 1.5;
+}
+
+div.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* ---------------------------------------Headings---------------------------------- */
+h1 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 48px;
+    margin: 30px 0;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 32px;
+    margin: 15px 0px;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 15px 0;
+    border-bottom: 2px solid #c78b06;
+    margin: 5px 20px 8px 10px;
+    text-align: left;
+}
+
+span {
+    vertical-align: middle;
+}
+
+.im-play {
+    vertical-align: middle;
+}
+
+
+/* add color and padding to nav section */
+
+nav {
+    background-color: #222;
+    padding: 10px;
+}
+
+/*------ ----------------nav li centre-------------------------- */
+
+nav li {
+    display: block;
+    text-align: center;
+    padding: 12px 0;
+}
+
+/* --------------------------logo on left side corner------------------------------------- */
+
+nav li:first-child {
+    text-align: left;
+}
+
+/* ------------------------remove underline annd change colour--------------------- */
+
+nav li a {
+    color: #c78b06;
+    text-decoration: none;
+}
+
+/* ------------------------color behind lists when hover-------------------------- */
+
+nav li:hover {
+    background-color: #c78b06;
+}
+
+nav li:hover a {
+    color: #222;
+}
+
+nav li:last-child:hover {
+    background-color: #222;
+}
+
+nav li:last-child:hover a {
+    background-color: #c78b06;
+}
+
+nav img {
+    width: 15%;
+    text-align: left;
+}
+
+/* ----------------------adjust size----------------------------- */
+
+.search {
+    display: inline-block;
+    width: 90%;
+    margin-right: -4px;
+}
+
+#anysearch {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 0;
+}
+
+.magnify {
+    display: inline-block;
+    /* padding: 6px 0px; */
+    width: 5%;
+    text-align: center;
+}
+
+i.im-magnifier {
+    color: #c78b06;
+    vertical-align: middle;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer {
+    width: 100%;
+}
+
+section.vision div {
+    color: white;
+    background-image: url("../images/vision.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+}
+
+section.vision button {
+    background-color: rgb(0, 0, 0, .8)
+}
+
+.banner {
+    background-image: url("../images/main-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 20px 0;
+
+}
+
+.welcome {
+    background-color: rgb(0, 0, 0, .5);
+    color: white;
+    padding: 30px 10px;
+}
+
+.welcome p {
+    padding: 0;
+}
+
+.welcome button {
+    background-color: #c78b06;
+    color: black;
+    margin: 0;
+}
+
+button {
+    border: 1px solid #c78b06;
+    background: none;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    padding: 4.5px;
+    /* padding: 20px 10px; */
+}
+/* hover style for all buttons */
+button:hover {
+    border: 1px solid #c78b06;
+}
+/* adds margin bottom to all paragraphs */
+p {
+    margin-bottom: 20px;
+}
+/* stlye about us section */
+#about {
+    background-color: #FFE6AC;
+}
+
+#about img {
+    padding: 20px;
+}
+
+section.flex-container section {
+    width: 100%;
+}
+
+/* edit all the sections */
+
+section div {
+    background-color: #FFE6AC;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+
+
+section div p,
+section div h2,
+section div h3 {
+    padding: 0px 20px;
+}
+
+
+section div button {
+    margin: 0 0 10px 20px;
+    background: black;
+    color: white;
+}
+
+section#team div h3 {
+    margin-bottom: 0;
+}
+/* ------------------------------------style send button------------------------------ */
+button#send {
+    color: #c78b06;
+    padding: 6px 5px;
+    margin: 10px 0 0 0;
+}
+
+
+label {
+    display:block;
+    margin-bottom:10px;
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+/* remove resize */
+textarea {
+    padding-bottom: 120px;
+    resize: none;
+}
+
+/* ------------------------------Contact Us Section-------------------------------- */
+
+div#Contact,
+div#operation,
+div#location {
+    background: white;
+}
+
+
+table {
+    width: 100%;
+}
+
+thead {
+    background: #FFE6AC;
+    text-align: center;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px 0 10px 5px;
+}
+
+iframe {
+    width: 337.5px;
+    height: auto;
+}
+
+/* ---------------------------------------footer section-------------------------------------- */
+
+footer {
+    background-color: #222;
+    color: #c78b06;
+    padding: 20px 0 10px 20px;
+}
+
+footer span {
+    text-decoration: underline;
+}
+
+/* ----------------------connectwithus button---------------------------- */
+
+.welcome a {
+    background-color: #c78b06;
+    color: black;
+    margin: 0;
+    text-decoration: none;
+    padding: 15px 15px 15px 15px;
+    text-align:center;
+    vertical-align: middle;
+    display: inline;
+}
+
+.blackbutton {
+    text-decoration: none;
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    margin-left: 10px;
+    vertical-align: middle;
+    display: inline-block;
+}
+section div p,
+    section div h2,
+    section div h3 {
+        padding: 10px;
+    }
+
+    .flex-container button {
+        margin: 0 auto;
+        display: block;
+    }
+    .flex-container img{
+       margin: 0;
+       display: block; 
+    }
+    section div h2,
+    section div h3 {
+        margin: 0;
+        padding-top:20px;
+    }
+
+    section div button {
+        margin: 0
+    }
+
+    .ourteam {
+        margin: 0;
+    }
+
+    .flex-container-about h2 {
+        padding: 0 20px;
+    }
+
+    .flex-container-about p {
+        padding:20px 20px 5px 20px;
+        margin-bottom:5px;
+    }
+
+    .flex-container-about div.lefthalf, 
+    .flex-container-about div.almosthalf {
+        margin: 0;
+        padding:0;
+    }
+
+/* ----------------------------MEDIA QUERY Heading 3 change --------------------------------- */
+
+@media only screen and (min-width:1145px) {
+
+    h3 {
+        font-size: 32px;
+    }
+}
+
+/* ----------------------------Desktop Layout MEDIA QUERY--------------------------------- */
+
+@media only screen and (min-width:780px) {
+
+    h1 {
+        font-size: 64px;
+        padding-bottom:20px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    nav img {
+        width: 100%;
+        vertical-align: middle;
+    }
+
+    nav li {
+        flex: 1;
+    }
+
+
+    .search {
+        display: inline-block;
+        width: 78%;
+    }
+
+    #anysearch {
+        width: 100%;
+        padding: 6px;
+        margin-bottom: 0;
+    }
+
+    .magnify {
+        display: inline-block;
+        width: 18%;
+        text-align: center;
+    }
+
+    i.im-magnifier {
+        color: #c78b06;
+        vertical-align: middle;
+        font-size: 16px;
+        text-align: center;
+
+    }
+    
+
+    .nav-list{
+        display: flex;
+        align-items: center;
+    }
+
+    .banner {
+        background-image: url("../images/main-banner.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin: 0 auto;
+        padding: 40px 65px;
+
+    }
+
+    .welcome {
+        background-color: rgb(0, 0, 0, .5);
+        color: white;
+        padding: 60px 10px 20px;
+    }
+
+    .welcome p {
+        padding: 0;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    #about img {
+        padding: 5px 0px 10px 80px;
+        display: none;
+    }
+
+    h4 {
+        margin-left: 10px;
+    }
+
+    .blackbutton {
+        text-align:center;
+        margin: 0 10px;
+        padding:24px;
+        display: block;
+    }
+
+    section.vision div {
+        color: white;
+        background-image: url("../images/vision.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 40px 80px;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-content: flex-start;
+        align-items: center;
+        padding: 20px 80px;
+    }
+
+    .flex-container-about {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-content: stretch;
+        align-items: stretch;
+        padding: 20px;
+    }
+    .flex-container-about div.lefthalf {
+        background-image: url("../images/about-us.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .flex-container-team {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-content: flex-start;
+        align-items: center;
+    }
+
+
+    div.flex-container-team {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .flex-container button {
+        width: 98%;
+    }
+
+/* -----------------topservices section------------------- */
+
+    .full {
+        order: 0;
+        flex: 1 1 80%;
+        align-self: auto;
+    }
+
+    .lefthalf {
+        order: 0;
+        flex: 0 1 49%;
+        align-self: auto;
+    }
+
+    .almosthalf {
+        order: 0;
+        flex: 0 1 45%;
+        align-self: auto;
+    }
+
+    .fifty-fifty {
+        order: 0;
+        flex: 0 1 50%;
+        align-self: auto;
+    }
+
+
+    .team-half {
+        flex: 0 1 50%;
+        align-self: flex-start;
+    }
+
+
+    .three {
+        order: 0;
+        flex: 0 1 32%;
+        align-self: auto;
+    }
+
+    .reverse:nth-child(1) {
+        order: 2;
+    }
+
+    .reverse:nth-child(2) {
+        order: 1;
+    }
+
+    .contact-order:nth-child(1) {
+        order: 1;
+    }
+
+    .contact-order:nth-child(2) {
+        order: 2;
+    }
+
+    .contact-order:nth-child(3) {
+        order: 4;
+    }
+
+
+    .contact-order:nth-child(4) {
+        order: 3;
+        align-self:stretch;
+        padding-left:10px;
+    }
+
+    /* ----------------------google map------------------------------ */
+
+    iframe {
+        width:100%;
+        height:300px;
+    }
+
+    footer {
+        padding-left:80px;
+    }
+
+  
+
+    button#send {
+        width:auto;
+    }
+    img{
+        width: 100%;
+      }
+
+      /* ---------------------------------------Team Section------------------------------------------- */
+
+      #team{
+        grid-template-areas:
+          "header header"
+          "john info1"
+          "info2 bob";
+        background-color: #FFE6AC;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        width:auto;
+        margin:0 80px;
+        
+      }
+      #team .ourteam{
+        grid-area: header;
+        background-color: white;
+      }
+      #team .johnphoto{
+        grid-area: john;
+      }
+      #team .johninfo{
+        grid-area: info1;
+      }
+      #team .bobphoto{
+        grid-area: bob;
+      }
+      #team .bobinfo{
+        grid-area: info2;
+      }
+      
+}
+
